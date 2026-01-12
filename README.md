@@ -35,3 +35,10 @@ Developers can start with [the developer tutorials](https://www.odoo.com/documen
 
 If you believe you have found a security issue, check our [Responsible Disclosure page](https://www.odoo.com/security-report)
 for details and get in touch with us via email.
+
+## Pasos para arrancar
+
+python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -i base
+
+python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -u base
+python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual
