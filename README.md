@@ -38,7 +38,12 @@ for details and get in touch with us via email.
 
 ## Pasos para arrancar
 
-python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -i base
+<!-- python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -i base
 
 python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -u base
-python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual
+python odoo-bin -r odoo -w odoo --addons-path=addons -d odoo_manual -->
+
+python odoo-bin -r odoo -w admin --addons-path=addons -d odoo_manual -i base
+
+python odoo-bin -r odoo -w admin --addons-path=addons -d odoo_manual -u base
+python odoo-bin -r odoo -w admin --addons-path=addons -d odoo_manual
